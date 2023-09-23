@@ -1,0 +1,14 @@
+version: '3'
+services:
+  taskmate:
+    image: mz1234/taskmate:20
+    ports:
+      - '5001:5001'
+    volumes:
+      - '../web:/run/web'
+      - '../migrations:/run/migrations'
+    environment:
+      - SECRET_KEY=<key>
+      - SQLALCHEMY_DATABASE_URI=postgresql://postgres:Admin@postgresql:5432/db_name
+      - DATABASE_HOST=host
+      - DATABASE_PORT=port
