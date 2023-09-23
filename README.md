@@ -74,7 +74,7 @@ Run Pytest against the code, including test coverage
 
 ## Authors
 
-- [@Divya](https://www.github.com/Divya)
+- [@Divya](https://github.com/24Divya-teja/Task/tree/main)
 
 ## Screenshots
 ### Creating a task:
